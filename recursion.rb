@@ -1,3 +1,5 @@
+## This is a collection of challenges that uses recurrsion for their solution
+
 def reverse_string(str)
   return '' if str.length == 0
   return reverser(str[1..-1]) + str[0]
